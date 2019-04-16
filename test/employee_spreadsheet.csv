@@ -1,0 +1,31 @@
+name,assigned_group,original_hire_date,manager,manager_squad,division,cost_center,location,gender
+Paul Mitten,,3/8/2013,Divina Coston,A,talent,g&a,san francisco,male
+Lida Shotts,,1/3/2010,Gil Arab,A,talent,g&a,san francisco,male
+Portia Halpin,,1/8/2010,Gil Arab,B,talent,g&a,tokyo,male
+Hyacinth Dowd,,1/12/2010,Divina Coston,B,executive assistant,g&a,san francisco,male
+Kendal Yearout,,3/8/2013,Gil Arab,C,executive assistant,g&a,nashville,male
+Noreen Clawson,,8/8/2018,Lavon Sesco,C,people ops,g&a,new york,male
+Khadijah Ruddick,,8/8/2018,Lavon Sesco,C,people ops,g&a,tokyo,female
+Karole Dudek,,8/8/2018,Lavon Sesco,D,people ops,g&a,san francisco,female
+Catheryn Brackins,,3/8/2013,Lavon Sesco,E,people ops,g&a,new york,female
+Providencia Darrell,,3/8/2013,Lavon Sesco,D,corporate council,g&a,nashville,female
+Linn Carlin,,8/8/2018,Galen Loudon,E,corporate council,g&a,hilo,female
+Joseph Hugley,,8/8/2018,Gil Arab,A,account management,sales,san francisco,male
+Magaly Acoff,,1/11/2010,Galen Loudon,B,account management,sales,tokyo,male
+Salvatore Stockman,,8/8/2018,Ellena Bridge,B,account management,sales,amsterdam,male
+Roxanna Wilcoxen,,1/11/2010,Lavon Sesco,B,account management,sales,new york,male
+Reynalda Strawbridge,,3/8/2013,Lavon Sesco,C,account support,sales,amsterdam,male
+Glynis Holloman,,1/11/2010,Ellena Bridge,E,account support,sales,tokyo,non-binary
+Lonnie Catledge,,8/8/2018,Divina Coston,E,account support,sales,nashville,non-binary
+Adriana Majors,,3/8/2013,Gil Arab,E,account support,sales,tokyo,female
+Lawanda Penix,,3/8/2013,Ellena Bridge,E,account support,sales,new york,female
+Deshawn Zaremba,,1/1/2010,Lavon Sesco,A,product engineering,technology,san francisco,female
+Janyce Deans,,1/5/2010,Gil Arab,A,product engineering,technology,san francisco,female
+Addie Howell,,3/8/2013,Gil Arab,B,product engineering,technology,amsterdam,female
+Darin Talbott,,1/7/2010,Divina Coston,B,product engineering,technology,new york,female
+Maryanna Pierro,,3/8/2013,Galen Loudon,C,product engineering,technology,san francisco,female
+Britt Ybarbo,,1/7/2010,Ellena Bridge,C,ecosystem engineer,technology,tokyo,female
+Veda Dibble,,3/8/2013,Lavon Sesco,C,ecosystem engineer,technology,new york,male
+May Madere,,1/7/2010,Divina Coston,D,ecosystem engineer,technology,nashville,male
+Cecily Beckford,,1/7/2010,Gil Arab,E,platform engineer,technology,tokyo,female
+Eric Butters,,8/8/2018,Ellena Bridge,E,platform engineer,technology,nashville,male

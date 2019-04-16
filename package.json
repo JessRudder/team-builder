@@ -1,5 +1,7 @@
 {
   "name": "team-builder",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@primer/css": "^12.2.2"
+  }
 }

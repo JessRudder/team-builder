@@ -1,0 +1,45 @@
+<%= flash[:notice] %>
+<div class="d-flex flex-wrap flex-lg-nowrap">
+  <div class="flex-row flex-lg-column main-content mt-4 mt-lg-6 pb-6 mx-auto px-3">
+    <div class="markdown-body">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Assigned Group</th>
+            <th>Hire Date</th>
+            <th>Manager</th>
+            <th>Manager Squad</th>
+            <th>Division</th>
+            <th>Cost Center</th>
+            <th>Location</th>
+            <th>Gender</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @team_members.each do |member| %>
+            <tr>
+              <td><%= member.name %></td>
+              <td><%= member.assigned_group %></td>
+              <td><%= member.original_hire_date %></td>
+              <td><%= member.manager %></td>
+              <td><%= member.manager_squad %></td>
+              <td><%= member.division %></td>
+              <td><%= member.cost_center %></td>
+              <td><%= member.location %></td>
+              <td><%= member.gender %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="mt-4">
+      <h4>Import team member list!</h4>
+      <%= form_tag import_team_members_path, multipart: true do %>
+        <%= file_field_tag :file %>
+        <%= submit_tag "Import CSV", class: "btn" %>
+      <% end %>
+    </div>
+  </div>
+</div>
