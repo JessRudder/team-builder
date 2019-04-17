@@ -38,4 +38,20 @@ class TeamMember < ApplicationRecord
       members.count / GROUP_SIZE + 1
     end
   end
+
+  def self.swap_groups
+    groups = TeamMember.pluck(:assigned_group).uniq
+    swap_groups = groups.sample(2)
+    origin = TeamMember.where(assigned_group: swap_groups[0]).sample
+    target = TeamMember.where(assigned_group: swap_groups[1]).sample
+
+    if improved_by_swapping(origin, target)
+      origin.update!(assigned_group: swap_groups[1])
+      target.update!(assigned_group: swap_groups[0])
+    end
+  end
+
+  def self.improved_by_swapping(origin, target)
+    return true
+  end
 end
