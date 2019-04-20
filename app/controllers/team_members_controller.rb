@@ -6,6 +6,6 @@ class TeamMembersController < ApplicationController
   def import
     TeamMember.import(params[:file])
 
-    redirect_to root_url, notice: "Team members have been imported."
+    redirect_back fallback_location: team_members_path, notice: "Team members have been imported."
   end
 end

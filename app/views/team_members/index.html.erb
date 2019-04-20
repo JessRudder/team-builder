@@ -7,7 +7,7 @@
           <tr>
             <th>Name</th>
             <th>Assigned Group</th>
-            <th>Hire Date</th>
+            <th>Years at GitHub</th>
             <th>Manager</th>
             <th>Manager Squad</th>
             <th>Division</th>
@@ -20,8 +20,8 @@
           <% @team_members.each do |member| %>
             <tr>
               <td><%= member.name %></td>
-              <td><%= member.assigned_group %></td>
-              <td><%= member.original_hire_date %></td>
+              <td><%= member.group.id %></td>
+              <td><%= member.years_at_github %></td>
               <td><%= member.manager %></td>
               <td><%= member.manager_squad %></td>
               <td><%= member.division %></td>

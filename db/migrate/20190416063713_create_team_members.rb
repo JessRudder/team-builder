@@ -2,8 +2,8 @@ class CreateTeamMembers < ActiveRecord::Migration[5.2]
   def change
     create_table :team_members do |t|
       t.text :name
-      t.integer :assigned_group
-      t.datetime :original_hire_date
+      t.integer :group_id
+      t.float :years_at_github
       t.text :manager
       t.text :manager_squad
       t.text :division
