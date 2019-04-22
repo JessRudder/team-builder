@@ -40,6 +40,7 @@
         <%= file_field_tag :file %>
         <%= submit_tag "Import CSV", class: "btn" %>
       <% end %>
+      <%= link_to "Export CSV", team_members_path(format: "csv"), class: "btn btn-large btn-purple" %>
     </div>
   </div>
 </div>

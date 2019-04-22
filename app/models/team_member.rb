@@ -60,4 +60,16 @@ class TeamMember < ApplicationRecord
   def self.optimize_groups
     Group.optimize_groups
   end
+
+  def self.to_csv
+    attributes = self.attribute_names
+
+    CSV.generate(headers: true) do |csv|
+      csv << attributes
+
+      all.each do |user|
+        csv << attributes.map{ |attr| user.send(attr) }
+      end
+    end
+  end
 end
